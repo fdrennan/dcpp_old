@@ -5,9 +5,15 @@
 #include <cmath>
 
 // [[Rcpp::export]]
-double dcpp_sum(const std::vector<double>& x) {
+double dcpp_sum(const std::vector<double>& r_vector) {
   
-  const double s_x   = std::accumulate(x.begin(), x.end(), 0.0);
+  int summation_vector = 0;
   
-  return s_x;
+  for(int i = 0; i < r_vector.size(); i = i + 1 ) {
+    
+    summation_vector = summation_vector + r_vector[i];
+    
+  }
+  
+  return summation_vector;
 }

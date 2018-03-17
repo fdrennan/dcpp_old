@@ -1,7 +1,7 @@
 #' Gives the slope between two vectors
 #'
 #' @description
-#' \code{slopeR()} Runs the same function as cppSlope but in the R language. 
+#' \code{slopeR()} Runs the same function as dcpp_slope but in the R language. 
 #'
 #' @param x   
 #' @param y   
@@ -33,7 +33,7 @@ slopeR <-
 #' Gives the sum of a vector
 #'
 #' @description
-#' \code{meanR()} Runs the same function as cppSum but in the R language. 
+#' \code{meanR()} Runs the same function as dcpp_sum but in the R language. 
 #'
 #' @param x   
 #'
@@ -52,3 +52,18 @@ sumR <-
     s_x
   }
 
+#' Gives the sum of a vector
+#'
+#' @description
+#' \code{meanR()} Runs the same function as dcpp_fibonacci but in the R language. 
+#'
+#' @param x   
+#'
+#' @export fibonacciR
+fibR <- function(x) {
+  if(x <= 1) {
+    return(x)
+  } else {
+    return(fibR(x-1) + fibR(x-2))
+  }
+}

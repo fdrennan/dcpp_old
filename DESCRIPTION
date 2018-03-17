@@ -1,12 +1,12 @@
 Package: dcpp
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: R functions written in C++
 Version: 1.0
 Date: 2018-03-17
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as one or more full
-          sentences.
+Author: Freddy Drennan
+Maintainer: Freddy Drennan <drennanfreddy@gmail.com>
+Description: Code written for R in C++.
 License: GPL (>= 2)
-Imports: Rcpp (>= 0.12.15)
+Imports: Rcpp (>= 0.12.15),
+         microbenchmark
 LinkingTo: Rcpp
