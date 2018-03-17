@@ -5,7 +5,7 @@
 #include <cmath>
 
 // [[Rcpp::export]]
-double slope(const std::vector<double>& x, const std::vector<double>& y) {
+double dcpp_slope(const std::vector<double>& x, const std::vector<double>& y) {
   
   const double n     = x.size();
   const double s_x   = std::accumulate(x.begin(), x.end(), 0.0);

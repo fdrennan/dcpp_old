@@ -5,6 +5,29 @@
 
 using namespace Rcpp;
 
+// dcpp_slope
+double dcpp_slope(const std::vector<double>& x, const std::vector<double>& y);
+RcppExport SEXP _dcpp_dcpp_slope(SEXP xSEXP, SEXP ySEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< const std::vector<double>& >::type x(xSEXP);
+    Rcpp::traits::input_parameter< const std::vector<double>& >::type y(ySEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_slope(x, y));
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_sum
+double dcpp_sum(const std::vector<double>& x);
+RcppExport SEXP _dcpp_dcpp_sum(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< const std::vector<double>& >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_sum(x));
+    return rcpp_result_gen;
+END_RCPP
+}
 // rcpp_hello_world
 List rcpp_hello_world();
 RcppExport SEXP _dcpp_rcpp_hello_world() {
@@ -15,22 +38,11 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// slope
-double slope(const std::vector<double>& x, const std::vector<double>& y);
-RcppExport SEXP _dcpp_slope(SEXP xSEXP, SEXP ySEXP) {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< const std::vector<double>& >::type x(xSEXP);
-    Rcpp::traits::input_parameter< const std::vector<double>& >::type y(ySEXP);
-    rcpp_result_gen = Rcpp::wrap(slope(x, y));
-    return rcpp_result_gen;
-END_RCPP
-}
 
 static const R_CallMethodDef CallEntries[] = {
+    {"_dcpp_dcpp_slope", (DL_FUNC) &_dcpp_dcpp_slope, 2},
+    {"_dcpp_dcpp_sum", (DL_FUNC) &_dcpp_dcpp_sum, 1},
     {"_dcpp_rcpp_hello_world", (DL_FUNC) &_dcpp_rcpp_hello_world, 0},
-    {"_dcpp_slope", (DL_FUNC) &_dcpp_slope, 2},
     {NULL, NULL, 0}
 };
 
