@@ -15197,3 +15197,8 @@ a:	4.30545,b:	-6.73636
 a_grad:	-6.39488e-15b_grad:	-1.59872e-14	
 6.18
 ]0;~/Documents/programming/rProjects/dcpp/inst/linear_regression[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst/linear_regression[0;33m (master) [0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst/linear_regrression[0;33m (master)[0m$ git add --all
+]0;~/Documents/programming/rProjects/dcpp/inst/linear_regression[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst/lineear_regression[0;33m (master)[0m$ git commm[Kit -m 'Update t[Kdocumentation'
+[master 03f09ed] Update documentation
+ 3 files changed, 2034 insertions(+), 3 deletions(-)
+ rewrite .Rproj.user/4723C48C/console06/INDEX001 (72%)
+]0;~/Documents/programming/rProjects/dcpp/inst/linear_regression[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst/lineear_regression[0;33m (master)[0m$ git add --all
