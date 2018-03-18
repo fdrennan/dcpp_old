@@ -52,11 +52,14 @@ sumR <-
     s_x
   }
 
-#' Gives the sum of a vector
+#' Gives the nth value in a fibonacci sequenct. 
 #'
 #' @description
 #' \code{meanR()} Runs the same function as dcpp_fibonacci but in the R language. 
 #'
+#' @examples 
+#' 
+#' fibR(1:10)
 #' @param x   
 #'
 #' @export fibR

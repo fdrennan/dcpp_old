@@ -2,7 +2,7 @@
 % Please edit documentation in R/basic_stats.R
 \name{fibR}
 \alias{fibR}
-\title{Gives the sum of a vector}
+\title{Gives the nth value in a fibonacci sequenct.}
 \usage{
 fibR(x)
 }
@@ -11,5 +11,9 @@ fibR(x)
 }
 \description{
 \code{meanR()} Runs the same function as dcpp_fibonacci but in the R language.
+}
+\examples{
+
+fibR(1:10)
 }
 
