@@ -14,3 +14,9 @@ microbenchmark(
   slopeR(x, y),      # Getting the slope written in R
   dcpp_slope(x, y)   # Slope written in C++
 )
+
+microbenchmark(
+  fibR(20),
+  dcpp_fib(20),
+  unit = 's'
+)

@@ -171,3 +171,7 @@ remote: Resolving deltas:   0% (0/15)   [Kremote: Resolving deltas:   6% (1/15
 To github.com:fdrennan/dcpp.git
    b77b984..428da5c  master -> master
 ]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (mmaster)[0m$ git push origin master[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'Added fibR and dcpp_fib'[C[C[C[C[C[C[C[C[C[C[C[C[Cadd --all[K
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (mmaster)[0m$ git add --allpush origin master[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m 'Added fibR and dcpp_fib'
+[master 1077b53] Added fibR and dcpp_fib
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+]0;~/Documents/programming/rProjects/dcpp[?1034h[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [K[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git add --all
