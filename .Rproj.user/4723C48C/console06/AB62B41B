@@ -13153,3 +13153,16 @@ remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6) 
 To github.com:fdrennan/dcpp.git
    73953e1..98344a8  master -> master
 ]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (masteer)[0m$ git add --all
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (masteer)[0m$ git commit -m 'Update doc'
+[master 51b13b7] Update doc
+ 2 files changed, 18 insertions(+), 12 deletions(-)
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (masteer)[0m$ git push orgin[K[K[Kigin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 1.09 KiB | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:fdrennan/dcpp.git
+   98344a8..51b13b7  master -> master
+]0;~/Documents/programming/rProjects/dcpp[?1034h[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (masteer)[0m$ all[K[K[Kgit add --all

@@ -3,40 +3,27 @@ dcpp
 
 -   [Introduction](#introduction)
 -   [Overviews](#Overviews)
-    -   [Median-Rank](#median-rank)
+    -   [C++ Code](#C++ Code)
+    -   [R Code](#R Code)
+    -   [Benchmarks](#Benchmarks)
 
 Introduction
 ------------
 
 `dcpp` is an R package that I've created to help me learn cpp. `dcpp` stands for Dren C++.
 
-Overviews
+Overview
 ----------------------------
 
-For both social and display type advertising campagins, Magellan is used to optimize adset/adgroup budgets. Magellan users have several KPIs (key performance indicator) to choose from to optimize against (cost per action, ROI, ...). Magellan also lets its users select an "aggression level", 0%-100%, to moderate how aggressively budgets are reallocated between adsets/agroups.
+I am learning C++ and have found the motivation to do so through using R. R has built in capabilities to call C++ code from R. In order to grow as a programmer and data scientist, I believe it is important to learn a *real* programming language. I love R and want to be an even more powerful user. 
 
-When optimizing budgets, Magellan must generally follow a couple of constraints. First, an asdset/adgroup budget cannot be set to below what has already been spent. Second, optimization should not change the campaign's total budget, or in other words, the sum of the incoming adsets/adgroups should equal the sum of the optimized adset/agroups. Currently, magellan uses 2 algorithms to accomplish budget optimization.
+### C++ Code
 
-### Median-Rank
+You will find C++ code in `src` as wellas `inst`. Code in `inst` can be run by finding a given folder and running `a.out`. Code in `src` will show up when building the R package. 
 
-The median-rank algorithm is used to optimize adset budgets of social campaigns. It works by The steps are as follows:
+### R Code
 
-1.  Compute the user selected KPI. For example, cost per click = cost / clicks.
-2.  Rank the adset based on the selected KPI. Ranking can be either ascending or descending, depending on whether a smaller or larger KPI is desirable.
-3.  A budget reallocation scheme is computed as a function of
-    -   the smallest remaining adset budget
-    -   the distances in rank from the median adset
-    -   the aggresion level
+Similar R code is located in the R folder. Each R function correlates with a given C++ function. When the package is loaded, `fibR` associates with `dcpp_fib`. `sumR` is associated with `dcpp_sum`, etc. 
 
-4.  Apply the reallocation scheme to the budgets of each adset
-
-Notes:
-
--   Median-Rank will always make adjustments that are symmetric about the median ranking adset/adgroup(s).
--   the maximum change to any adset will be equal to minimum remaining budget % times the selected aggression level.
-
-### Median-Weighted
-
-The Median-Weighted Algorithm is built off of Median-Rank. The difference beyond Median-Rank is that Median-Weighted shapes budget adjustments to reflect the relative differences in the performace. Currently Median-Weighted is used on display campaigns.
-
-Adgroups are split on either side of the median adgroup(s). The adjustment amounts from Median-Rank on lower half (&gt; the median rank), are reweighted base on the the relative performace between them. The same process is then doen on the upper half (&lt; the median rank).
+### Benchmarks 
+A folder called `benchmarks.R` is in the home directory and it has the different functions set up for speed tests. You can compare the performance of the functions there. 
