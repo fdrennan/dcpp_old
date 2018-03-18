@@ -192,3 +192,22 @@ remote: Resolving deltas:   0% (0/14)   [Kremote: Resolving deltas:  14% (2/14
 To github.com:fdrennan/dcpp.git
    428da5c..9483048  master -> master
 ]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git add --all
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git commit -m 'Update fo lder structure'
+[master e5377cf] Update folder structure
+ 3 files changed, 18 insertions(+), 1 deletion(-)
+ rename inst/{ => misc_data}/optdigits.test (100%)
+ rename inst/{ => misc_data}/optdigits.train (100%)
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 1.25 KiB | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:fdrennan/dcpp.git
+   9483048..e5377cf  master -> master
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ ls
+DESCRIPTION		README.md		data			man
+NAMESPACE		Read-and-delete-me	dcpp.Rproj		src
+R			benchmarks.R		inst
+]0;~/Documents/programming/rProjects/dcpp[?1034h[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git adgit add [K[K[K[K[K[K[K[Kd --all
