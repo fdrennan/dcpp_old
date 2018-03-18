@@ -2,39 +2,6 @@
     {
         "definitions" : [
             {
-                "column" : 7,
-                "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/LinearRegression.h",
-                "kind" : 2,
-                "line" : 12,
-                "name" : "LinearRegression",
-                "parent_name" : "",
-                "usr" : "c:@C@LinearRegression"
-            },
-            {
-                "column" : 8,
-                "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/LinearRegression.h",
-                "kind" : 7,
-                "line" : 22,
-                "name" : "trainAlgorithm(int, double, double)",
-                "parent_name" : "LinearRegression",
-                "usr" : "c:@C@LinearRegression@F@trainAlgorithm#I#d#d#"
-            },
-            {
-                "column" : 10,
-                "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/LinearRegression.h",
-                "kind" : 7,
-                "line" : 59,
-                "name" : "regress(double)",
-                "parent_name" : "LinearRegression",
-                "usr" : "c:@C@LinearRegression@F@regress#d#"
-            }
-        ],
-        "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/LinearRegression.h",
-        "file_last_write" : 1521394715
-    },
-    {
-        "definitions" : [
-            {
                 "column" : 5,
                 "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/dcpp_fib.cpp",
                 "kind" : 6,
@@ -76,20 +43,5 @@
         ],
         "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/dcpp_sum.cpp",
         "file_last_write" : 1521322761
-    },
-    {
-        "definitions" : [
-            {
-                "column" : 6,
-                "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/rcpp_hello_world.cpp",
-                "kind" : 6,
-                "line" : 6,
-                "name" : "rcpp_hello_world",
-                "parent_name" : "",
-                "usr" : "c:@F@rcpp_hello_world#"
-            }
-        ],
-        "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/rcpp_hello_world.cpp",
-        "file_last_write" : 1521318653
     }
 ]

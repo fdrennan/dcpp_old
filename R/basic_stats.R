@@ -59,7 +59,7 @@ sumR <-
 #'
 #' @param x   
 #'
-#' @export fibonacciR
+#' @export fibR
 fibR <- function(x) {
   if(x <= 1) {
     return(x)

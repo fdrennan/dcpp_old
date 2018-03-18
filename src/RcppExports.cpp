@@ -16,16 +16,6 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// LinearRegression
-double LinearRegression();
-RcppExport SEXP _dcpp_LinearRegression() {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    rcpp_result_gen = Rcpp::wrap(LinearRegression());
-    return rcpp_result_gen;
-END_RCPP
-}
 // dcpp_slope
 double dcpp_slope(const std::vector<double>& x, const std::vector<double>& y);
 RcppExport SEXP _dcpp_dcpp_slope(SEXP xSEXP, SEXP ySEXP) {
@@ -49,26 +39,11 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// rcpp_hello_world
-List rcpp_hello_world();
-RcppExport SEXP _dcpp_rcpp_hello_world() {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    rcpp_result_gen = Rcpp::wrap(rcpp_hello_world());
-    return rcpp_result_gen;
-END_RCPP
-}
-
-RcppExport SEXP _dcpp_dcpp_linearRegression(SEXP, SEXP);
 
 static const R_CallMethodDef CallEntries[] = {
     {"_dcpp_dcpp_fib", (DL_FUNC) &_dcpp_dcpp_fib, 1},
-    {"_dcpp_LinearRegression", (DL_FUNC) &_dcpp_LinearRegression, 0},
     {"_dcpp_dcpp_slope", (DL_FUNC) &_dcpp_dcpp_slope, 2},
     {"_dcpp_dcpp_sum", (DL_FUNC) &_dcpp_dcpp_sum, 1},
-    {"_dcpp_rcpp_hello_world", (DL_FUNC) &_dcpp_rcpp_hello_world, 0},
-    {"_dcpp_dcpp_linearRegression", (DL_FUNC) &_dcpp_dcpp_linearRegression, 2},
     {NULL, NULL, 0}
 };
 

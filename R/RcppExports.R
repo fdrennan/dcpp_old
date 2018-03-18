@@ -2,22 +2,14 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 dcpp_fib <- function(n) {
-    .Call(`_dcpp_dcpp_fib`, n)
-}
-
-LinearRegression <- function() {
-    .Call(`_dcpp_LinearRegression`)
+    .Call('_dcpp_dcpp_fib', PACKAGE = 'dcpp', n)
 }
 
 dcpp_slope <- function(x, y) {
-    .Call(`_dcpp_dcpp_slope`, x, y)
+    .Call('_dcpp_dcpp_slope', PACKAGE = 'dcpp', x, y)
 }
 
 dcpp_sum <- function(r_vector) {
-    .Call(`_dcpp_dcpp_sum`, r_vector)
-}
-
-rcpp_hello_world <- function() {
-    .Call(`_dcpp_rcpp_hello_world`)
+    .Call('_dcpp_dcpp_sum', PACKAGE = 'dcpp', r_vector)
 }
 

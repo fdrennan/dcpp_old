@@ -8,7 +8,7 @@
         "-I/usr/local/include",
         "-fPIC"
     ],
-    "hash" : "1521322127",
+    "hash" : "1521395985",
     "is_cpp" : true,
     "pch" : "Rcpp"
 }

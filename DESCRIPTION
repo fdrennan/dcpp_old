@@ -7,6 +7,8 @@ Author: Freddy Drennan
 Maintainer: Freddy Drennan <drennanfreddy@gmail.com>
 Description: Code written for R in C++.
 License: GPL (>= 2)
-Imports: Rcpp (>= 0.12.15),
-         microbenchmark
+Imports:
+    Rcpp (>= 0.12.15),
+    microbenchmark
 LinkingTo: Rcpp
+RoxygenNote: 5.0.1
