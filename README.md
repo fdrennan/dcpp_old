@@ -2,23 +2,15 @@ dcpp
 ================
 
 -   [Introduction](#introduction)
--   [Magellan Algorithm Overviews](#magellan-algorithm-overviews)
+-   [Overviews](#Overviews)
     -   [Median-Rank](#median-rank)
-    -   [Median-Weighted](#median-weighted)
 
 Introduction
 ------------
 
-`magellanR` is an R package that houses all the executable R functions for the Adtaxi-Magellan Application. The functions are normally accessed via GET requests to the DeployR API (see section on DeployR). There are 4 high level wrapper functions used by the application, one for each platform:
+`dcpp` is an R package that I've created to help me learn cpp. `dcpp` stands for Dren C++.
 
--   MagellanRTB.R
--   MagellanSOC.R
--   CampaignPacing.R
--   AdvertiserPacing.R
-
-Each wrapper function is controlled by a script that is executed by DeployR when submitting a POST request.
-
-Magellan Algorithm Overviews
+Overviews
 ----------------------------
 
 For both social and display type advertising campagins, Magellan is used to optimize adset/adgroup budgets. Magellan users have several KPIs (key performance indicator) to choose from to optimize against (cost per action, ROI, ...). Magellan also lets its users select an "aggression level", 0%-100%, to moderate how aggressively budgets are reallocated between adsets/agroups.
