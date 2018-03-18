@@ -15202,3 +15202,72 @@ a_grad:	-6.39488e-15b_grad:	-1.59872e-14
  3 files changed, 2034 insertions(+), 3 deletions(-)
  rewrite .Rproj.user/4723C48C/console06/INDEX001 (72%)
 ]0;~/Documents/programming/rProjects/dcpp/inst/linear_regression[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst/lineear_regression[0;33m (master)[0m$ git add --all
+]0;~/Documents/programming/rProjects/dcpp/inst/linear_regression[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst/lineear_regression[0;33m (master)[0m$ git commit -m 'Update documentation'
+[master 81ccc87] Update documentation
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+]0;~/Documents/programming/rProjects/dcpp/inst/linear_regression[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst/lineear_regression[0;33m (master)[0m$ git push origin master
+Counting objects: 14, done.
+Delta compression using up to 4 threads.
+Compressing objects:   7% (1/14)   Compressing objects:  14% (2/14)   Compressing objects:  21% (3/14)   Compressing objects:  28% (4/14)   Compressing objects:  35% (5/14)   Compressing objects:  42% (6/14)   Compressing objects:  50% (7/14)   Compressing objects:  57% (8/14)   Compressing objects:  64% (9/14)   Compressing objects:  71% (10/14)   Compressing objects:  78% (11/14)   Compressing objects:  85% (12/14)   Compressing objects:  92% (13/14)   Compressing objects: 100% (14/14)   Compressing objects: 100% (14/14), done.
+Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  50% (7/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 1.89 KiB | 0 bytes/s, done.
+Total 14 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 5 local objects.[K
+To github.com:fdrennan/dcpp.git
+   e114165..81ccc87  master -> master
+]0;~/Documents/programming/rProjects/dcpp/inst/linear_regression[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst/lineear_regression[0;33m (master)[0m$ 
+]0;~/Documents/programming/rProjects/dcpp/inst/linear_regression[?1034h[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst/lineear_regression[0;33m (master)[0m$ ls
+a.out			linear_regression.cpp
+]0;~/Documents/programming/rProjects/dcpp/inst/linear_regression[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst/lineear_regression[0;33m (master)[0m$ cd ..
+total 16
+-rw-r--r--@ 1 freddydrennan  staff   6.0K Mar 18 09:44 .DS_Store
+drwxr-xr-x  4 freddydrennan  staff   136B Mar 18 10:45 [34mlinear_regression[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp/inst[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst[0;33m (masster)[0m$ ls
+linear_regression
+]0;~/Documents/programming/rProjects/dcpp/inst[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/inst[0;33m (masster)[0m$ cd ..
+total 88
+-rw-r--r--@  1 freddydrennan  staff   6.0K Mar 18 09:45 .DS_Store
+-rw-r--r--   1 freddydrennan  staff   2.5K Mar 17 14:54 .RData
+-rw-r--r--   1 freddydrennan  staff    28B Mar 17 14:30 .Rbuildignore
+-rw-r--r--   1 freddydrennan  staff   338B Mar 17 14:54 .Rhistory
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 17 14:30 [34m.Rproj.user[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 11:40 [34m.git[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff    67B Mar 17 14:34 .gitignore
+-rw-r--r--   1 freddydrennan  staff   296B Mar 17 15:28 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff    93B Mar 17 14:30 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 09:34 [34mR[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   1.2K Mar 18 11:25 README.md
+-rw-r--r--@  1 freddydrennan  staff   428B Mar 18 09:30 benchmarks.R
+drwxr-xr-x   3 freddydrennan  staff   102B Mar 18 09:33 [34mdata[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   303B Mar 18 11:38 dcpp.Rproj
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 10:57 [34minst[39;49m[0m/
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 17 14:30 [34mman[39;49m[0m/
+drwxr-xr-x  17 freddydrennan  staff   578B Mar 18 11:39 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master) [0m$ ls
+DESCRIPTION	README.md	dcpp.Rproj	src
+NAMESPACE	benchmarks.R	inst
+R		data		man
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master) [0m$ cd src
+total 2072
+-rw-r--r--@ 1 freddydrennan  staff   265B Mar 18 11:40 LinearRegression.cpp
+-rw-r--r--@ 1 freddydrennan  staff   1.6K Mar 18 11:38 LinearRegression.h
+-rw-r--r--  1 freddydrennan  staff   2.0K Mar 17 16:14 RcppExports.cpp
+-rw-r--r--  1 freddydrennan  staff   466K Mar 18 11:38 RcppExports.o
+-rwxr-xr-x  1 freddydrennan  staff    97K Mar 18 11:38 [31mdcpp.so[39;49m[0m
+-rw-r--r--@ 1 freddydrennan  staff   166B Mar 17 16:14 dcpp_fib.cpp
+-rw-r--r--  1 freddydrennan  staff   2.2K Mar 18 11:38 dcpp_fib.o
+-rw-r--r--@ 1 freddydrennan  staff   1.2K Mar 17 15:14 dcpp_slope.cpp
+-rw-r--r--  1 freddydrennan  staff    42K Mar 18 11:38 dcpp_slope.o
+-rw-r--r--@ 1 freddydrennan  staff   357B Mar 17 15:39 dcpp_sum.cpp
+-rw-r--r--  1 freddydrennan  staff    36K Mar 18 11:38 dcpp_sum.o
+-rw-r--r--  1 freddydrennan  staff   281B Mar 17 14:30 rcpp_hello_world.cpp
+-rw-r--r--  1 freddydrennan  staff   265K Mar 18 11:38 rcpp_hello_world.o
+-rw-r--r--  1 freddydrennan  staff    42K Mar 17 15:13 slope.o
+-rw-r--r--  1 freddydrennan  staff    38K Mar 17 15:13 sum.o
+]0;~/Documents/programming/rProjects/dcpp/src[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/src[0;33m (mastter)[0m$ ls
+LinearRegression.cpp	dcpp_fib.cpp		dcpp_sum.o
+LinearRegression.h	dcpp_fib.o		rcpp_hello_world.cpp
+RcppExports.cpp		dcpp_slope.cpp		rcpp_hello_world.o
+RcppExports.o		dcpp_slope.o		slope.o
+dcpp.so			dcpp_sum.cpp		sum.o
+]0;~/Documents/programming/rProjects/dcpp/src[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/src[0;33m (mastter)[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programmming/rProjects/dcpp/src[0;33m (master)[
+0m$ [K[A[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/src[0;333m (master)[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming//rProjects/dcpp/src[0;33m (master)[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjectss/dcpp/src[0;33m (master)[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/src[[0;33m (master)[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/src[0;33m (masterr)[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rPProjects/dcpp/src[0;33m (master)[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/src[0;33mm (master)[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/ssrc[0;33m (master)[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/src[0;33m (master))[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/ddcpp/src[0;33m (master)[0m$ git add --all

@@ -5,6 +5,10 @@ dcpp_fib <- function(n) {
     .Call(`_dcpp_dcpp_fib`, n)
 }
 
+LinearRegression <- function() {
+    .Call(`_dcpp_LinearRegression`)
+}
+
 dcpp_slope <- function(x, y) {
     .Call(`_dcpp_dcpp_slope`, x, y)
 }
