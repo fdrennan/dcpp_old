@@ -19,7 +19,7 @@ I am learning C++ and have found the motivation to do so through using R. R has 
 
 ### C++ Code
 
-You will find C++ code in `src` as wellas `inst`. Code in `inst` can be run by finding a given folder and running `a.out`. Code in `src` will show up when building the R package. 
+You will find C++ code in `src` as well as `inst`. Code in `inst` can be run by finding a given folder and running `./a.out` in your terminal. Code in `src` will show up in R when building the R package. 
 
 ### R Code
 
